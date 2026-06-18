@@ -1,0 +1,117 @@
+{
+  "series": [
+    {
+      "id": "2",
+      "titulo": "Succession",
+      "genero": "Drama",
+      "nota": 8.9,
+      "ano": 2018,
+      "assistida": true
+    },
+    {
+      "id": "3",
+      "titulo": "Severance",
+      "genero": "Ficção Científica",
+      "nota": 8.7,
+      "ano": 2022,
+      "assistida": false
+    },
+    {
+      "id": "4",
+      "titulo": "The Wire",
+      "genero": "Crime / Drama",
+      "nota": 9.3,
+      "ano": 2002,
+      "assistida": true
+    },
+    {
+      "id": "5",
+      "titulo": "Fleabag",
+      "genero": "Comédia",
+      "nota": 8.7,
+      "ano": 2016,
+      "assistida": false
+    },
+    {
+      "id": "6",
+      "titulo": "Chernobyl",
+      "genero": "Drama / História",
+      "nota": 9.4,
+      "ano": 2019,
+      "assistida": true
+    },
+    {
+      "titulo": "sera",
+      "ano": "2019",
+      "nota": "9.3",
+      "genero": "História",
+      "assisitdaSpan": false,
+      "id": "JgSKZvDsU7I"
+    },
+    {
+      "titulo": "ola",
+      "ano": "2008",
+      "nota": "8.7",
+      "genero": "História",
+      "assisitdaSpan": false,
+      "id": "Wu7r9NjQZac"
+    },
+    {
+      "titulo": "ola",
+      "ano": "2008",
+      "nota": "8.7",
+      "genero": "História",
+      "assisitdaSpan": false,
+      "id": "Ymp4dleJTxY"
+    },
+    {
+      "titulo": "ola",
+      "ano": "2008",
+      "nota": "8.7",
+      "genero": "História",
+      "assisitdaSpan": false,
+      "id": "7kOfTpXmiHk"
+    },
+    {
+      "titulo": "ola",
+      "ano": "2008",
+      "nota": "8.7",
+      "genero": "História",
+      "assisitdaSpan": false,
+      "id": "yEVg2FJ4GVo"
+    },
+    {
+      "titulo": "ola",
+      "ano": "2008",
+      "nota": "8.7",
+      "genero": "História",
+      "assisitdaSpan": false,
+      "id": "Zna88G8NfZc"
+    },
+    {
+      "titulo": "Chernobyl",
+      "ano": "2026",
+      "nota": "8.7",
+      "genero": "Drama",
+      "assisitdaSpan": false,
+      "id": "Hv97wCA7Y-g"
+    },
+    {
+      "titulo": "Chernobyl",
+      "ano": "2026",
+      "nota": "8.7",
+      "genero": "Drama",
+      "assisitdaSpan": false,
+      "id": "uC2hoUxJQ4U"
+    },
+    {
+      "titulo": "Wire",
+      "ano": "2025",
+      "nota": "9.4",
+      "genero": "Aventura",
+      "assisitdaSpan": false,
+      "id": "FbMiNyetOds"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
