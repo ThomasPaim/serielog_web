@@ -42,6 +42,14 @@
           required
         >
       </div>
+      <div>
+        <label>Assistida:</label>
+        <input
+          type="checkbox"
+          v-model="assistida"
+        >
+
+      </div>
 
       <button type="submit">
         Salvar
@@ -65,6 +73,7 @@ const titulo = ref("");
 const genero = ref("");
 const nota = ref(null);
 const ano = ref(null);
+const assistida = ref(false);
 const erro = ref("");
 
 async function criarNovaSerie() {
@@ -76,7 +85,7 @@ async function criarNovaSerie() {
       genero: genero.value,
       nota: nota.value,
       ano: ano.value,
-      assistida: false
+      assistida: assistida.value
     };
 
     const response = await fetch(
