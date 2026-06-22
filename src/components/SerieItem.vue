@@ -8,6 +8,10 @@
     <button @click="$emit('excluir', serie.id)">
       Excluir
     </button>
+
+    <router-link :to="`/series/${serie.id}`">
+      Editar
+    </router-link>
   </article>
 </template>
 

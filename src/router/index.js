@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import HomeView from "../views/HomeView.vue";
 import NovaSerieView from "../views/NovaSerieView.vue";
+import DetalheSerieView from "../views/DetalheSerieView.vue";
 
 const routes = [
   {
@@ -13,6 +14,11 @@ const routes = [
     path: "/series/nova",
     name: "nova-serie",
     component: NovaSerieView
+  },
+  {
+    path: "/series/:id",
+    name: "editar-serie",
+    component: DetalheSerieView
   }
 ];
 
